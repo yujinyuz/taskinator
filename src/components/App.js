@@ -57,7 +57,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="container">
-        <h1 className="title">Jinyuz Taskinator</h1>
+        <h1 className="title">Taskinator</h1>
         <div className="app-container">
           <AddTodoItem onFormSubmit={(todo) => this.handleFormSumbit(todo)} />
           <TodoList todos={this.state.todos} onComplete={(id) => this.handleTodoCompleted(id)}/>

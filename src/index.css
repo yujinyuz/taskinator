@@ -16,7 +16,12 @@
 body {
   height: 100%;
   width: 100%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(#ccc 0%, #808080 100%);
+  min-height: 100vh;
+
+  
+
 }
 
 .title {
@@ -28,16 +33,17 @@ body {
   flex-direction: column;
   max-width: 300px;
   margin: 0 auto;
-
+  
 }
 
 .app-container {
   display: flex;
   flex-direction: column;
 
-  border: 1px solid var(--black);
+  border: 3px solid var(--black);
   border-radius: 14px;
   margin-top: 2rem;
+
 }
 
 .form-container {
@@ -57,6 +63,7 @@ body {
   width: calc(100% - 28px - 1rem);
   outline: 0;
   border: 0;
+  background: transparent;
 }
 
 .todo-list {
@@ -65,8 +72,9 @@ body {
 }
 
 .todo-body {
-  border-top: 1px solid var(--black);
-  border-bottom: 1px solid var(--black);
+  border-top: 3px solid var(--black);
+  border-bottom: 3px solid var(--black);
+  /* overflow-y: auto; */
   overflow-y: auto;
 }
 
@@ -83,7 +91,9 @@ body {
 .todo-item:hover {
   transition: all 0.2s ease-in-out;
   padding-left: 20px;
-  background: #c9c9c9;
+  /* background: #c9c9c9; */
+  /* font-weight: 600; */
+  border-bottom: 3px solid black;
 }
 
 .todo-item__check:hover {
@@ -107,6 +117,7 @@ body {
 
 .delete:hover {
   color: red;
+  font-size: 100px;
 }
 
 @media (min-width: 1024px) {
