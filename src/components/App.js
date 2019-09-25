@@ -9,9 +9,9 @@ export default class App extends Component {
 
   state = {
     todos: [
-      {id: 1, text: 'Hello', completed: false},
-      {id: 2, text: 'Hi', completed: false},
-      {id: 3, text: 'Oh Shit!', completed: true},
+      {id: 1, text: 'Hello there! Thanks for visiting', completed: false},
+      {id: 2, text: 'Click the trash icon', completed: false},
+      {id: 3, text: 'Don\'t mind me, I\'m done.', completed: true},
     ],
   }
 
@@ -40,7 +40,6 @@ export default class App extends Component {
   }
 
   handleTodoCompleted(id) {
-    console.log('Complete ', id);
     const todos = this.state.todos.map(todo => {
       if (todo.id === id) {
         todo.completed = !todo.completed;
