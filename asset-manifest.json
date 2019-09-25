@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/taskinator/static/css/main.05e4b08c.chunk.css",
+    "main.js": "/taskinator/static/js/main.ab89ae08.chunk.js",
+    "main.js.map": "/taskinator/static/js/main.ab89ae08.chunk.js.map",
+    "runtime-main.js": "/taskinator/static/js/runtime-main.0d06beb3.js",
+    "runtime-main.js.map": "/taskinator/static/js/runtime-main.0d06beb3.js.map",
+    "static/js/2.5b572b36.chunk.js": "/taskinator/static/js/2.5b572b36.chunk.js",
+    "static/js/2.5b572b36.chunk.js.map": "/taskinator/static/js/2.5b572b36.chunk.js.map",
+    "index.html": "/taskinator/index.html",
+    "precache-manifest.0318e026fcfed3c474950acc7ff87663.js": "/taskinator/precache-manifest.0318e026fcfed3c474950acc7ff87663.js",
+    "service-worker.js": "/taskinator/service-worker.js",
+    "static/css/main.05e4b08c.chunk.css.map": "/taskinator/static/css/main.05e4b08c.chunk.css.map"
+  }
+}
